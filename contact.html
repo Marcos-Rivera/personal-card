@@ -1,47 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact</title>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- FAVICON -->
+    <link rel="icon" href="img/favicon/favicon-32x32.png">
+    <!-- STYLE SHEET -->
+    <link rel="stylesheet" href="CSS/styles.css">
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/c74b5ef5d5.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
 
-<div class="contact-title">
-    <h1>Say Hello</h1>
-</div>
+    <div class="contact-card">
+        <div class="contact-title">
+            <h1>Contact</h1>
+        </div>
+        <div class="contact form">
+            <form id="contact-form" method="post" action="">
+                <div> <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                </div>
 
-<div class="contact form">
-    
-    <form id="contact-form" method="post" action="">
+                <div> <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+                </div>
 
-<input type="text" name="name" class="form-control" placeholder="Your Name" required>
-<br>
-<input type="email" name="email" class="form-control" placeholder="Your Email" required>
-<br>
+                <div> <textarea name="message" class="form-control" placeholder="Message" rows="4" required> </textarea>
+                </div>
 
-<textarea name="message" class="form-control" placeholder="Message" rows="4" required> </textarea>
+                <div> <input type="Submit" class name="form-control submit" id="" value="Send message">
+                </div>
 
-<br>
-<input type="Submit"class name="form-control submit" id="" value="SEND MESSAGE">
+            </form>
+             <!-- ANIMATED BACKGROUND -->
+             <div class="bg"></div>
+             <div class="bg bg2"></div>
+             <div class="bg bg3"></div>
+        </div>
 
-
-
-    </form>
-
-
-
-
-
-
-</div>
+    </div>
 
 
 
 
 
 
+    <!-- <div class="contact-title">
+        <h1>Contact</h1>
+    </div>
+    <div class="contact form">
+        <form id="contact-form" method="post" action="">
+
+            <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+            <br>
+            <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+            <br>
+
+            <textarea name="message" class="form-control" placeholder="Message" rows="4" required> </textarea>
+
+            <br>
+            <input type="Submit" class name="form-control submit" id="" value="Send message">
+
+        </form>
+    </div> -->
 
 
 
@@ -52,6 +82,13 @@
 
 
 
-    
+
+
+
+
+
+
+
 </body>
+
 </html>

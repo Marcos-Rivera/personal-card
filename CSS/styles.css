@@ -1,9 +1,14 @@
 /* font-family: 'Roboto', sans-serif; */
 
+
+/* GENERAL STYLES */
+
 body {
   font-family: 'Roboto', sans-serif;
-  /* background-color: #292929; */
+  background-color: #292929;
 }
+
+/* CARD-2 */
 
 .card-2 {
   -webkit-border-radius: 20px 20px 20px 20px;
@@ -21,9 +26,7 @@ body {
   color: #2b2839;
 
   background-image: url(img/pic/cover-image.png);
-
-  /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); */
-  /* clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 100% 100%, 0% 100%, 0% 50%); */
+ 
   -webkit-clip-path: inset(10px round 80px 20px 30px 10px);
   clip-path: inset(10px round 10px 10px 10px 10px);
 }
@@ -38,6 +41,7 @@ body {
   font-size: 1.875rem;
   margin: 1rem auto;
   color: #03DAC5;
+  
 }
 
 .job {
@@ -57,9 +61,11 @@ body {
 .n-btn {
 
   border-radius: 4px;
-  background-color: rgba(23, 26, 32, 0.8);
+  /* background-color: rgba(23, 26, 32, 0.8); */
+  background-color: #BB86FC;
   border: none;
-  color: #FFFFFF;
+  /* color: #FFFFFF; */
+  color: black;
   text-align: center;
   font-size: 1rem;
   font-weight: 500;
@@ -154,6 +160,30 @@ h1 {
     transform: translateX(25%);
   }
 }
+
+/* CONTACT ME */
+
+
+.contact-card {
+  -webkit-border-radius: 20px 20px 20px 20px;
+-moz-border-radius: 20px 20px 20px 20px;
+border-radius: 20px 20px 20px 20px;
+
+margin: 3.5rem auto;
+width: 32rem;
+height: 16rem;
+padding: 1rem;
+display: flex;
+justify-content: space-around;
+align-items: center;
+text-align: center;
+color: #2b2839;
+
+-webkit-clip-path: inset(10px round 80px 20px 30px 10px);
+clip-path: inset(10px round 10px 10px 10px 10px);
+  
+}
+
 
 
 
