@@ -44,7 +44,8 @@ body {
 
 .job {
   font-size: 1rem;
-  color: #03DAC5;
+  /* color: #03DAC5; */
+  color: white;
 }
 
 .spacer {
@@ -115,6 +116,13 @@ body {
   opacity: 1;
   right: 0;
 }
+
+.fa-envelope {
+  margin-right: .5rem;
+}
+
+
+
 
 
 
